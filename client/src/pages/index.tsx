@@ -4,10 +4,8 @@ import { Suspense } from 'react';
 import useSuspenseQuery from '../hooks/useSuspenseQuery';
 
 type Todo = {
-  userId: number;
   id: number;
   title: string;
-  completed: boolean;
 };
 
 export default function Home() {
