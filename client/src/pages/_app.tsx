@@ -5,9 +5,7 @@ import {
   QueryClientProvider,
 } from 'react-query';
 
-const client = new QueryClient({
-
-});
+const client = new QueryClient();
 
 export default function App({
   Component,
