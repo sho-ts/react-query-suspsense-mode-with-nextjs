@@ -19,7 +19,7 @@ export default function Home() {
     return (
       <ul>
         {data?.map((todo) => {
-          return <p key={todo.id}>{todo.title}</p>;
+          return <li key={todo.id}>{todo.title}</li>;
         })}
       </ul>
     );
